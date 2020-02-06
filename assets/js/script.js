@@ -1,6 +1,6 @@
 //Tableau Embed function
 function initViz() {
-	url = "https://eu-west-1a.online.tableau.com/t/epita/views/CoronaVirusGlobalcaseMap/Sheet1?:origin=card_share_link&:embed=n",
+	url = "https://public.tableau.com/views/CoronavirusCaseHeatMap/Sheet1?:display_count=y&:origin=viz_share_link",
   options = {
       hideToolbar: true,
       width: "100%",

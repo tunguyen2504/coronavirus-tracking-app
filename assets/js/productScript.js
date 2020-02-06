@@ -1,10 +1,10 @@
 //Tableau Embed function
 function initViz() {
-	url = "https://eu-west-1a.online.tableau.com/t/epita/views/CoronavirusdistributionmapinChina/Sheet1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link",
+	url = "https://public.tableau.com/views/ChinadistributionofnCoV/Sheet1?:display_count=y&:origin=viz_share_link",
   options = {
       hideToolbar: true,
       width: "100%",
-      height: "500px",
+      height: "460px",
   };
   viz = new tableau.Viz(tabProduct, url, options);
 }
