@@ -1,6 +1,6 @@
 //Tableau Embed function
 function initViz() {
-	url = "https://public.tableau.com/views/ChinadistributionofnCoV/Sheet1?:display_count=y&publish=yes&:origin=viz_share_link",
+	url = "https://eu-west-1a.online.tableau.com/t/epita/views/CoronavirusdistributionmapinChina/Sheet1?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link",
   options = {
       hideToolbar: true,
       width: "100%",

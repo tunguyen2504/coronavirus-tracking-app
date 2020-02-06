@@ -1,10 +1,10 @@
 //Tableau Embed function
 function initViz() {
-  url = "https://public.tableau.com/views/CoronavirusCaseHeatMap/Sheet1?:display_count=y&publish=yes&:origin=viz_share_link",
+	url = "https://eu-west-1a.online.tableau.com/t/epita/views/CoronaVirusGlobalcaseMap/Sheet1?:origin=card_share_link&:embed=n",
   options = {
       hideToolbar: true,
       width: "100%",
       height: "460px",
   };
-  viz = new tableau.Viz(tabGlobal, url, options);
+	viz = new tableau.Viz(tabGlobal, url, options);
 }
